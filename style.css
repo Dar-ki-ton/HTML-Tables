@@ -1,0 +1,139 @@
+html {
+  background: #0c6c9d;
+}
+
+body {
+  text-align: center;
+  width: 700px;
+  padding: 30px 50px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#timetable {
+  border: 1px solid red;
+  margin: 0px auto;
+}
+
+#row-1 {
+  background: #053561;
+  color: white;
+}
+
+#lunch {
+  border: 1px dotted blue;
+  padding: 10px;
+}
+
+.block {
+  background: black;
+  color: white;
+  border: 1px dotted blue;
+  padding: 10px;
+}
+
+.time {
+  font-size: 8px;
+  font-style: italic;
+}
+
+.subject {
+  padding: 10px;
+  border: 1px dotted blue;
+}
+
+.subject:hover {
+  background: #06413a;
+  color: white;
+  cursor: cell;
+  font-size: 12px;
+
+  transition: font-size 0.5s, background 0.5s, color 0.5s;
+}
+
+#socials {
+  width: 500px;
+  margin: 20px auto;
+  background-color: #0c6c9d;
+  border: 0px;
+  border-radius: 60px;
+  padding: 40px;
+}
+
+.row {
+  border: 0px;
+  padding: 5px;
+}
+
+#find {
+  border: 0px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+img {
+  height: 100px;
+}
+
+div {
+  background: lightskyblue;
+  padding: 0px 20px 20px;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#college {
+  border: 2px solid gray;
+  width: 650px;
+  margin: auto;
+}
+
+td {
+  border: 1px solid gray;
+}
+
+.day {
+  width: 20px;
+}
+
+.time {
+  text-align: left;
+  font-size: 12px;
+}
+
+#title {
+  font-size: 25px;
+  color: teal;
+}
+
+#lunch {
+  border: 1px solid gray;
+  text-align: center;
+}
+
+#green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}
+
+#pink {
+  color: pink;
+}
+
+#red {
+  color: red;
+}
+
+#darkred {
+  color: darkred;
+}
+
+#gold {
+  color: gold;
+}
